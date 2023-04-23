@@ -1,0 +1,96 @@
+/* here lies my CSS code for Lab 3*/
+body {
+    background-color: mediumturquoise;
+}
+
+/*header colors and alignment*/
+h1 {
+    color: white;
+    text-align:center;
+    border: 5px solid black;
+    margin: 10px 10px 10px 10px;
+    position: relative;
+}
+/* long requirements*/
+h2 {
+    color: maroon;
+    font-size: .4in;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+    height: 50px;
+    width: 250px;
+    max-width: max-content;
+    max-height: max-content;
+}
+h3 {
+    color: rgb(0, 0, 0);
+    font-size: 5mm;
+}
+h4 {
+    color: #FFFFFF;
+    font-size: 2em;
+    display: inline;
+}
+details {
+    color: hsl(295, 80%, 40%);
+    font-size: 1.2rem;
+}
+p {
+    font-size: 1rem;
+}
+/* auto margins, short borders and padding */
+div {
+    width: 500px;
+    border: 10px solid navy;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    display: inline-block;
+    position: sticky;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: hotpink;
+    justify-content: center;
+}
+span {
+    width: 300;
+    border: 5px solid brown;
+    margin: auto;
+}
+.grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template-rows: auto auto auto auto;
+    grid-auto-columns: 30px;
+}
+a:hover {
+    color: #FF00FF;
+}
+a:active {
+    color: crimson;
+}
+@media screen and (min-width: 1080px) {
+    body {
+      background-color: lightgreen;
+    }
+}
+@font-face {
+    font-family: Fraktur;
+    src: url(UnifrakturMaguntia-Regular.ttf);
+}
+* {
+    font-family: Fraktur;
+}

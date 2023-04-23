@@ -94,3 +94,27 @@ a:active {
 * {
     font-family: Fraktur;
 }
+#Business {
+    color: green;
+}
+input[type="text"] {
+    background-color: red;
+}
+h2, h3 {
+    background-color: yellow;
+}
+body p {
+    background-color: orange;
+}
+footer > p {
+    background-color: purple;
+}
+div ~ ul {
+    background: #ec8181;
+}
+ul + p {
+    background-color: magenta;
+}
+p.ringo {
+    background-color: yellow;
+}
